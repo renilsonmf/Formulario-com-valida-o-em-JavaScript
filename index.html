@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <script type="text/javascript" src="script.js"></script>
+    <title>Formulario</title>
+</head>
+
+<body>
+
+    <section class="section-ex5">
+        <h1>Formulário de Cadastro</h1>
+        <form class="form-ex5" name="formulario">
+            <div>
+                <label>Nome</label>
+                <input type="text" name="nome" id="nome" placeholder="Ex: Renilson Moreira" required>
+            </div>
+            <div>
+                <label>Idade</label>
+                <input type="number" name="idade" id="idade" placeholder="Ex:23" required>
+            </div>
+            <div>
+                <label>E-mail</label>
+                <input type="text" name="email" id="email" placeholder="Ex: exemplo@hotmail.com" required>
+            </div>
+            <div>
+                <label>Senha</label>
+                <input type="password" name="senha" id="senha" placeholder="Ex: 8 caracteres" required>
+            </div>
+            <div>
+               
+              <input type="button" name="botao" id="botao" value="Cadastrar" onclick="executar()">
+            </div>
+  
+
+        </form>
+        <div id="resposta"> </div>
+        <div id="erro"></div>
+    </section>
+
+</body>
+
+</html>

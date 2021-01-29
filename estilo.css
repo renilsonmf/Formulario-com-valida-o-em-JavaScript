@@ -1,0 +1,72 @@
+body{
+    font-family: sans-serif;
+    background-color: rgba(73, 112, 185, 0.466);
+    
+}
+
+h1{
+    padding-top: 20px;
+    margin-left: 40px;
+    font-size: 20pt;
+    color: rgba(0, 0, 0, 0.71);
+}
+
+.section-ex5{
+    width: 500px;
+    height: 400px;
+    margin: auto;
+    border-radius: 10px;
+    background-color: rgba(227, 233, 233, 0.993);
+    
+}
+
+.form-ex5 div{
+padding: 10px;
+}
+.form-ex5 label{
+    margin-left: 30px;
+}
+.form-ex5 input{
+padding: 10px;
+width: 300px;
+margin-left: 20px;
+
+
+}
+.form-ex5 input:hover{
+    background-color: rgba(204, 204, 204, 0.521);
+    
+}
+.form-ex5 #idade{  width: 125px; margin-left: 24px;}
+
+.form-ex5 #botao{
+    background-color:blue;
+    color: white; 
+    margin-left: 100px;
+    width: 120px;
+    border-radius: 6px;
+}
+
+.form-ex5 #botao:hover{
+    background-color: rgba(0, 0, 255, 0.993);
+}
+
+#resposta{
+    text-align: center;
+    width: 350px;
+    font-size: 20px;
+    margin: auto;
+    background-color: green;
+    color: white;
+}
+#erro{
+    background-color: rgba(255, 0, 0, 0.705);
+    width: 350px;
+    margin: auto;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+   
+}
+
+
